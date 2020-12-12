@@ -8,6 +8,12 @@ function myFunction() {
     x.className = "navbarSupportedContent";
   }
 }
+
+@media (max-width: 1000px) {
+  .navbar-collapse.collapse:not(.in) {
+      display: none !important;
+  }
+}
 .header {
   padding: 60px;
   text-align: center;
